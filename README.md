@@ -1,3 +1,3 @@
-# My Personal Blog
+# Meu blog pessoal
 
-This is my personal blog
+Esse aqui é o meu blog onde escrevo sobre tecnologia em geral.

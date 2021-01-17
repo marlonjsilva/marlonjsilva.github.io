@@ -1,16 +1,18 @@
 ---
 layout: page
-title: About
+title: Sobre
 ---
 
-Hey there! My name is Marlon de Jesus Silva, 24. I'm a software developer in Brazil, working mostly with Python, JavaScript and Java projects. In this blog I write about Linux, Development and other interesting stuff.
-## Setup
-
-This basic blog was build on top of this stack:
-
-* Bloggin tool [Jekyll](https://jekyllrb.com)
-* Theme [Lanyon](http://lanyon.getpoole.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+Olá! Seja bem-vindo ao meu blog, me chamo Marlon, tenho 24 anos e trabalho com desenvolvimento de software. Nesse blog pretendo escrever sobre programação, servidores linux e outros assuntos relacionado a TI.
 
 
-Thanks all folks!
+## Sobre o blog
+
+Esse blog foi construído utilizando a seguinte stack:
+
+* Ferramenta de blogagem - [Jekyll](https://jekyllrb.com)
+* Tema utilizado - [Lanyon](http://lanyon.getpoole.com)
+* Hospedagem gratuita - [GitHub Pages](https://pages.github.com)
+
+
+Até a próxima!

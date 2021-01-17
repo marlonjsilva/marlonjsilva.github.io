@@ -1,7 +1,7 @@
 # Setup
 title:               Marlon
 tagline:             'J. Silva'
-description:         'Personal blog'
+description:         'Blog pessoal'
 url:                 https://marlonjsilva.github.io
 baseurl:             ''
 paginate:            5
