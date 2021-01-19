@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gerando certificados digitais com Openssl
+title: Criando um certificado raiz com Openssl
 ---
 
 Nesse post irei mostrar como podemos criar um certificado digital raiz (Certificate Authority) para que seja possível emitir certificados digitais próprios. Isso muitas vezes nos é útil para desenvolvermos aplicações seguras em um escopo restrito sem os gastos e os trâmites burocráticos com empresas de certificação digital. Como exemplo criar serivços de VPN's, autenticação para serviços dentro de uma rede local, criação de assinaturas digitais para arquivos, tudo dentro um ambiente interno de uma empresa ou repartição pública.
@@ -72,6 +72,6 @@ certificado_raiz.crt  certificado_raiz.key  certificado_raiz.pem
 
 Pronto! Agora você já é uma "entidade certificadora".
 
-No próximo post irei mostrar como criar um arquivo .pfx para assinatura digital de documentos.
+No [próximo post](https://marlonjsilva.github.io/2021/01/19/criando-assinatura-digital) irei mostrar como criar um arquivo .pfx para assinatura digital de documentos.
 
 Até a próxima!
