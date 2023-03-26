@@ -1,0 +1,64 @@
+# section information
+section:
+  name: Experiência
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: UDS Tecnologia
+    url: "https://www.uds.com.br"
+    location: Maringá, PR
+    # company overview
+    overview: Desde 2003, a UDS ajuda companhias de diversos setores a estruturar produtos digitais e inovações para seus colaboradores e clientes finais.
+  positions:
+  - designation: Desenvolvedor de Software Pleno
+    start: Maio 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Migração de cargas de trabalho entre nuvens;
+    - Proviosionamento de recursos via Terraform por meio de GitOps;
+
+- company:
+    name: Tradefix
+    url: "https://tradefix.com.br/"
+    location: Itabuna, BA
+    overview: Empresa focada no desenvolvimento de ferramentas destinadas ao mercado financeiro.
+  positions:
+  - designation: Desenvolvedor de Software
+    start: Janeiro 2019
+    end: Maio 2022
+    responsibilities:
+    - Desenvolvimento da API de pagamentos utilizando FastAPI;
+    - Desenvolvimento de API's internas para fornecer informações para ferramentas de trading;
+    - Desenvolvimento da plataforma de copytrade;
+    - Desenvolvimento de ferramentas em MQL4/MQL5 para tomada de decisões;
+
+- company:
+    name: Prefeitura Municipal de Itabuna
+    url: "http://itabuna.ba.gov.br/"
+    location: Itabuna, BA
+    overview: Funcionário público concursado do Departamento de Tecnologia da Informação.
+  positions:
+  - designation: Desenvolvedor de Software
+    start: Junho 2018
+    end: Maio de 2022
+    responsibilities:
+    - Desenvolvimento de aplicações web java e php;
+    - Documentação de software;
+    - Treinamento de usuários;
+  - designation: Técnico de Informática
+    start: Dezembro de 2016
+    end: Junho de 2018
+    responsibilities:
+    - Implantação do fluxo de trabalho ITIL junto a equipe;
+    - Implantação do GLPI como parte do proejto ITIL para gestão dos recursos e serviços de TI;
+    - Assessoria no processo licitatório para aquisição de recursos de TI; 
+

@@ -1,0 +1,74 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python
+  summary: "Desenvolvimento back-end com Flask, desenvolvimento de API's utilizando FASTAPI, e desenvolvimento de ferramentas focadas no mercado financeiro."
+  url: "https://www.python.org/"
+  logo: "images/sections/skills/python.svg"
+
+- name: NodeJS
+  summary: "Desenvolvimento back-end utilizando Express, desenvolvimento de API's utlizando o Restify"
+  url: "https://nodejs.org/"
+  logo: "images/sections/skills/nodejs.svg"
+
+- name: Java
+  summary: "Desenvolvimento back-end utilizando as tecnologias Spring."
+  url: "https://www.java.com/"
+  logo: "images/sections/skills/java.svg"
+
+- name: AWS
+  summary: "Desenvolvivmento de soluções em nuvem utlizando Amazon AWS."
+  url: "https://aws.amazon.com/"
+  logo: "images/sections/skills/aws.svg"
+
+- name: GCP
+  summary: "Desenvolvivmento de soluções em nuvem utlizando Google Cloud Platform."
+  url: "https://cloud.google.com/"
+  logo: "images/sections/skills/gcp.svg"
+
+- name: Terraform
+  summary: "Provisionamento de recursos em nuvem multi-cloud utilizando a estratégia Infraestructure as Code (IaC) com Terraform."
+  url: "https://www.terraform.io/"
+  logo: "images/sections/skills/terraform.svg"
+
+- name: Ansible
+  summary: "Automação de configurações de servidores linux utlizando Ansible."
+  url: "https://www.ansible.com/"
+  logo: "images/sections/skills/ansible.svg"
+
+- name: Git
+  summary: "Proficiencia no uso de ferramentas de versionamento de código que utilizam a tecnologia git."
+  url: "https://git-scm.com/"
+  logo: "images/sections/skills/git.svg"
+
+- name: Jenkins
+  summary: "Cultura SecDevOps fazendo uso de tecnologias de CI/CD."
+  url: "https://www.jenkins.io/"
+  logo: "images/sections/skills/jenkins.svg"
+
+- name: Redis
+  summary: "Desenvolvimento de aplicações que fazem uso dos padrões de message-queue e public/subscribe utlizando python e nodejs."
+  url: "https://redis.io/"
+  logo: "images/sections/skills/redis.svg"
+
+- name: Debian
+  summary: "Proficiencia na admnistração de servidores linux com enfâse em Debia."
+  url: "https://www.debian.org/"
+  logo: "images/sections/skills/debian.svg"
+
+- name: Bash
+  summary: "Criação de script de automação de tarefas e rotinas administrativas de servidores linux."
+  url: "https://www.gnu.org/software/bash/"
+  logo: "images/sections/skills/bash.svg"
+
+

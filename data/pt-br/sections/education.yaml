@@ -1,0 +1,30 @@
+# section information
+section:
+  name: Formação Acadêmica
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Tecnólogo em Gestão da Tecnologia da Informação
+  icon: fa-graduation-cap
+  timeframe: 2020-2022
+  institution:
+    name: Universidade Cruzeiro do Sul
+    url: "https://www.cruzeirodosulvirtual.com.br/"
+- name: Técnico em Informatica - Desenvolvedor de Softares
+  icon: fa-university
+  timeframe: 2014-2016
+  institution:
+    name: Fundação Indaiatubana de Educação e Cultura
+    url: "https://www.fiec.com.br/"
+- name: Ensino Médio
+  icon: fa-school
+  timeframe: 2013-2016
+  institution:
+    name: Annunziatta Leonilda Virgineli Prado
+    url: "#"

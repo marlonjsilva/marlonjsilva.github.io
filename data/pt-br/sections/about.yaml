@@ -1,0 +1,45 @@
+# section information
+section:
+  name: Sobre
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Desenvolvedor de Software
+# your company information
+company:
+  name: UDS
+  url: "https://uds.com.br"
+
+# your resume. this file path should be relative to you "static" directory
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Desenvolvedor de software focado em resultados com ampla experiência em desenvolvimento e testagem de software. Habilidoso no uso de abordagens orientadas a objetivos para o desenvolvimento de software em tempo real. Analítico e detalhista.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/marlonjsilva"
+- name: Gitea
+  icon: "fab fa-git"
+  url: "https://git.marlonjsilva.com.br/msilva"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Técnico
+  percentage: 85
+  color: blue
+- name: Equipe
+  percentage: 90
+  color: yellow
+- name: Social
+  percentage: 85
+  color: pink
