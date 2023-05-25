@@ -1,0 +1,62 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "profissional"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: GLPI's implementation
+  logo: images/sections/projects/itabuna.png
+  role: Computer Technician
+  timeline: "January/2017 - June/2017"
+  url: https://glpi-project.org/ # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: System management support for TI Support team from Itabuna's Town Hall following along with best practices of ITIL.
+  tags: ["profissional"]
+
+- name: My First driver's license
+  logo: images/sections/projects/itabuna.png
+  role: Software Developer
+  timeline: "Junho 2018 - Fevereiro de 2019"
+  url: "https://primeiracnhsocial.prefeituradeitabuna.com.br/"
+  summary: Software Development and Operational implementation.
+  tags: ["profissional"]
+
+- name: Zona Azul - Parking lot
+  logo: images/sections/projects/itabuna.png
+  role: Software Developer
+  timeline: "Julho de 2019 - Agosto de 2019"
+  url: "http://itabuna.ba.gov.br/"
+  summary: Software development  and Operational implementation, Android application development with thermal printer integration.
+  tags: ["profissional"]
+
+
+- name: Tradefix
+  logo: images/sections/projects/tradefix.png
+  role: Software Developer
+  timeline: "Julho de 2019 - Agosto de 2019"
+  url: "https://tradefix.com.br/"
+  summary: Algotrading applications tools and bots. Implementatation of payment gateway for several applications.
+  tags: ["profissional"]
+
+- name: Asaas SDK
+  logo: images/sections/skills/python.svg
+  role: Owner
+  timeline: "Julho de 2019 - Agosto de 2019"
+  repo: "https://github.com/marlonjsilva/asaas_sdk_python"
+  summary: SDK in python for access ASAAS payment gateway endpoints.
+  tags: ["hobby"]

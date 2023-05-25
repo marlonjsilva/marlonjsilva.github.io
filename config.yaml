@@ -1,6 +1,6 @@
 baseURL: https://marlonjsilva.github.io
 
-languageCode: pt-br
+languageCode: br
 title: "Marlon Silva"
 
 # Use Hugo modules to add theme
@@ -20,13 +20,16 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  pt-br:
+  br:
     languageName: Português
     weight: 1
+  en:
+    languageName: English
+    weight: 3
 
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-DefaultContentLanguage: pt-br
+DefaultContentLanguage: br
 
 # Allow raw html in markdown file
 markup:

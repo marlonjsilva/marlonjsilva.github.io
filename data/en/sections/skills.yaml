@@ -1,0 +1,74 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Python
+  summary: "Software development in Python with Flask and RestAPI frameworks."
+  url: "https://www.python.org/"
+  logo: "images/sections/skills/python.svg"
+
+- name: NodeJS
+  summary: "Software development back-end with Expresss and Restify"
+  url: "https://nodejs.org/"
+  logo: "images/sections/skills/nodejs.svg"
+
+- name: Java
+  summary: "Software development with Spring framework."
+  url: "https://www.java.com/"
+  logo: "images/sections/skills/java.svg"
+
+- name: AWS
+  summary: "Cloud solutions development with AWS."
+  url: "https://aws.amazon.com/"
+  logo: "images/sections/skills/aws.svg"
+
+- name: GCP
+  summary: "Cloud solutions development with Google Cloud Platform."
+  url: "https://cloud.google.com/"
+  logo: "images/sections/skills/gcp.svg"
+
+- name: Terraform
+  summary: "Proficiency with provisioning cloud compute resources using Infraestructure as Code (IaC) methodology with Terraform."
+  url: "https://www.terraform.io/"
+  logo: "images/sections/skills/terraform.svg"
+
+- name: Ansible
+  summary: "Linux server automation using Ansible."
+  url: "https://www.ansible.com/"
+  logo: "images/sections/skills/ansible.svg"
+
+- name: Git
+  summary: "Code versioning proficiency with git technology."
+  url: "https://git-scm.com/"
+  logo: "images/sections/skills/git.svg"
+
+- name: Jenkins
+  summary: "DevOps culture for CI/CD pipelines."
+  url: "https://www.jenkins.io/"
+  logo: "images/sections/skills/jenkins.svg"
+
+- name: Redis
+  summary: "Software development with message-queue and publish/subscribe pattern using Python and Nodejs"
+  url: "https://redis.io/"
+  logo: "images/sections/skills/redis.svg"
+
+- name: Debian
+  summary: "Proficiency with server administration with emphasys on Debian."
+  url: "https://www.debian.org/"
+  logo: "images/sections/skills/debian.svg"
+
+- name: Bash
+  summary: "Script development for automation and administration of Debian servers."
+  url: "https://www.gnu.org/software/bash/"
+  logo: "images/sections/skills/bash.svg"
+
+
