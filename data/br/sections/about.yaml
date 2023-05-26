@@ -40,6 +40,9 @@ softSkills:
 - name: Equipe
   percentage: 90
   color: yellow
-- name: Social
-  percentage: 85
-  color: pink
+
+badges:
+  - type: certification
+    name: AWS Certified Cloud Practitioner
+    url: "https://www.credly.com/badges/ab670753-4541-499a-9094-de330c9bf551/public_url"
+    badge: "https://images.credly.com/size/680x680/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
