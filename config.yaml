@@ -20,7 +20,7 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  br:
+  pt-br:
     languageName: Português
     weight: 1
   en:
@@ -29,7 +29,7 @@ languages:
 
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-DefaultContentLanguage: br
+DefaultContentLanguage: pt-br
 
 # Allow raw html in markdown file
 markup:
@@ -192,9 +192,9 @@ params:
     flags:
       enable: true
       # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+      flagOverwrites:
+        - languageCode: pt-br
+          countryCode: br
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
