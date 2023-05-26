@@ -13,9 +13,9 @@ experiences:
 - company:
     name: UDS Tecnologia
     url: "https://www.uds.com.br"
-    location: Maringá, PR
+    location: Maringá, PR - Brazil
     # company overview
-    overview: Desde 2003, a UDS ajuda companhias de diversos setores a estruturar produtos digitais e inovações para seus colaboradores e clientes finais.
+    overview: Since 2003, UDS helps companies from many sectors create digital products and inovation for their colaborators and customers.
   positions:
   - designation: Software Developer
     start: May 2022
@@ -32,19 +32,19 @@ experiences:
     name: Tradefix
     url: "https://tradefix.com.br/"
     location: Itabuna, BA
-    overview: Empresa focada no desenvolvimento de ferramentas destinadas ao mercado financeiro.
+    overview: Company focused on creating tools for decision makeing in financial markets.
   positions:
-  - designation: Desenvolvedor de Software
+  - designation: Software Developer
     start: Januray 2019
     end: May 2022
     responsibilities:
-    - Desenvolvimento da API de pagamentos utilizando FastAPI;
-    - Desenvolvimento de API's internas para fornecer informações para ferramentas de trading;
-    - Desenvolvimento da plataforma de copytrade;
-    - Desenvolvimento de ferramentas em MQL4/MQL5 para tomada de decisões;
+    - Developing payment gateway API for cross-application using FastAPI;
+    - Developing internal API's for gathering and serve information for internal systems;
+    - Developing a copytrade platform;
+    - Developing tools for decision making using MQL4/MQL5;
 
 - company:
-    name: Prefeitura Municipal de Itabuna
+    name: Itabuna's Town Hall
     url: "http://itabuna.ba.gov.br/"
     location: Itabuna, BA
     overview: Public agent in IT Support Departament in Itabuna's Town Hall
@@ -60,7 +60,7 @@ experiences:
     start: December 2016
     end: June 2018
     responsibilities:
-    - Implantação do fluxo de trabalho ITIL junto a equipe;
-    - Implantação do GLPI como parte do proejto ITIL para gestão dos recursos e serviços de TI;
-    - Assessoria no processo licitatório para aquisição de recursos de TI; 
+    - Impletation of ITIL compliant workflow for IT Support Department;
+    - Implementing GLPI as part of ITIL compliant workflow;
+    - Assessoring the purchases process for IT acquisitions;
 
