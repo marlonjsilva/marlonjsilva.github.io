@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://marlonjsilva.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Marlon Silva"
 
 # Use Hugo modules to add theme
 module:
@@ -23,12 +23,12 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Marlon Silva"
     weight: 1
   bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+    languageCode: pt-BR
+    languageName: Portugues
+    title: "Marlon Silva"
     weight: 2
 # default language for the content
 defaultContentLanguage: en
@@ -68,7 +68,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/marlonjsilva/marlonjsilva.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -144,7 +144,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
