@@ -11,51 +11,31 @@ section:
 designation: Software Engineer
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Nubank
+  url: "https://www.nubank.com"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I am Marlon de Jesus Silva, a passionate technologist with a strong interest in AI, cloud computing, and SRE. Currently, I am part of the **AI for Developer Productivity** team at Nubank, where we are revolutionizing  the banking system in Latin America by leveraging AI and LLMs to enhance engineers productivity.'
+
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "contato@marlonjsilva.com.br"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://www.github.com/marlonjsilva"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
-
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
-
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
+  url: "https://www.linkedin.com/in/marlonjsilva/"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.

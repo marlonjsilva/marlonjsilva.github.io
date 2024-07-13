@@ -25,11 +25,6 @@ languages:
     languageName: English
     title: "Marlon Silva"
     weight: 1
-  bn:
-    languageCode: pt-BR
-    languageName: Portugues
-    title: "Marlon Silva"
-    weight: 2
 # default language for the content
 defaultContentLanguage: en
 
