@@ -15,8 +15,7 @@ experiences:
     url: "https://www.nubank.com.br"
     location: São Paulo, SP
     # company overview
-    overview: Nubank is a Brazilian fintech company founded in 2013, known for revolutionizing the banking sector in Brazil with its digital  
-and innovative approach.
+    overview: Nubank is a Brazilian fintech company founded in 2013, known for revolutionizing the banking sector in Brazil with its digital and innovative approach.
   positions:
   - designation: Software Engineer
     start: September 2023
