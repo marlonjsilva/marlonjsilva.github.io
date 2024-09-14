@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Developer
+designation: Software Engineer
 # your company information
 company:
-  name: UDS
-  url: "https://uds.com.br"
+  name: Nubank
+  url: "https://nubank.com.br"
 
 # your resume. this file path should be relative to you "static" directory
-# resume: "files/resume.pdf"
+resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Experienced Software Developer, with focous in results and best practices uses. Skilled on Cloud Computing migration/adoption, empasys on costs optimizations . Self-managed, analitical and proactive.'
+summary: 'Experienced Software Engineer at Nubank, with specialized expertise in developing AI solutions to enhance infrastructure and enable AI/LLM capabilities for software engineering teams.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

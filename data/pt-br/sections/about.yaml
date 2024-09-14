@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Desenvolvedor de Software
+designation: Engenheiro de Software
 # your company information
 company:
-  name: UDS
-  url: "https://uds.com.br"
+  name: Nubank
+  url: "https://nubank.com.br"
 
 # your resume. this file path should be relative to you "static" directory
-# resume: "files/resume.pdf"
+resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Desenvolvedor de software focado em resultados com ampla experiência em desenvolvimento e testagem de software. Habilidoso no uso de abordagens orientadas a objetivos para o desenvolvimento de software em tempo real. Analítico e detalhista.'
+summary: 'Engenheiro de Software experiente no Nubank, com especialização no desenvolvimento de soluções de IA para aprimorar e habilitar a infraestrutura de IA/LLM para equipes de engenharia de software.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
