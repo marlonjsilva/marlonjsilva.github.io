@@ -11,6 +11,23 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Nubank
+    url: "https://www.nubank.com.br"
+    location: São Paulo, SP
+    # company overview
+    overview: A Nubank é uma fintech brasileira fundada em 2013, conhecida por revolucionar o setor bancário no Brasil com sua abordagem      
+digital e inovadora.
+  positions:
+  - designation: Engenheiro de Software
+    start: Setembro 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Desenvolvimento de aplicações de Inteligência Artificial Generativa (GenAI);
+    - Realização de benchmarks de modelos de LLM para geração de código;
+    - Análise, design e avaliação de aplicações de Inteligência Artificial (IA) voltadas para a engenharia de software;
+- company:
     name: UDS Tecnologia
     url: "https://www.uds.com.br"
     location: Maringá, PR
@@ -19,6 +36,7 @@ experiences:
   positions:
   - designation: Desenvolvedor de Software Pleno
     start: Maio 2022
+    end: Setembro 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.

@@ -11,6 +11,23 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Nubank
+    url: "https://www.nubank.com.br"
+    location: São Paulo, SP
+    # company overview
+    overview: Nubank is a Brazilian fintech company founded in 2013, known for revolutionizing the banking sector in Brazil with its digital  
+and innovative approach.
+  positions:
+  - designation: Software Engineer
+    start: September 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Development of Generative AI (GenAI) applications;
+    - Benchmarking of Large Language Models (LLM) for code generation;
+    - Analysis, design, and evaluation of AI applications for software engineering;
+- company:
     name: UDS Tecnologia
     url: "https://www.uds.com.br"
     location: Maringá, PR - Brazil
@@ -19,6 +36,7 @@ experiences:
   positions:
   - designation: Software Developer
     start: May 2022
+    end: September 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
