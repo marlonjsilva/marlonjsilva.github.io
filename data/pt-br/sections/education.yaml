@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Education
+  name: Formação Acadêmica
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
@@ -10,19 +10,19 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Technologist in Information Technology Management
+- name: Tecnólogo em Gestão da Tecnologia da Informação
   icon: fa-graduation-cap
   timeframe: 2020-2022
   institution:
-    name: Cruzeiro do Sul University
+    name: Universidade Cruzeiro do Sul
     url: "https://www.cruzeirodosulvirtual.com.br/"
-- name: IT Technician - Software Developer
+- name: Técnico em Informatica - Desenvolvedor de Softwares
   icon: fa-university
   timeframe: 2014-2016
   institution:
     name: Fundação Indaiatubana de Educação e Cultura
     url: "https://www.fiec.com.br/"
-- name: High School
+- name: Ensino Médio
   icon: fa-school
   timeframe: 2013-2016
   institution:

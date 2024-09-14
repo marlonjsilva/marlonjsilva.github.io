@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Projetos
   id: projects
   enable: true
   weight: 4
@@ -10,47 +10,47 @@ section:
 
 # filter buttons
 buttons:
-- name: All
+- name: Todos
   filter: "all"
-- name: Professional
+- name: Profissional
   filter: "profissional"
 - name: Hobby
   filter: "hobby"
 
 # your projects
 projects:
-- name: GLPI's implementation
+- name: Implantação do GLPI
   logo: images/sections/projects/itabuna.png
-  role: Computer Technician
-  timeline: "January/2017 - June/2017"
+  role: Técnico de Informática
+  timeline: "Janeiro de 2017 - Junho de 2017"
   url: https://glpi-project.org/ # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: System management support for TI Support team from Itabuna's Town Hall following along with best practices of ITIL.
+  summary: Implantação de um modelo de gestão de recursos de TI dentro do Departamento de Suporte de TI na Prefeitura de Itabuna compatível com as boas práticas ITIL.
   tags: ["profissional"]
 
-- name: My First driver's license
+- name: Primeira CNH Social
   logo: images/sections/projects/itabuna.png
-  role: Software Developer
+  role: Desenvolvedor de Software
   timeline: "Junho 2018 - Fevereiro de 2019"
   url: "https://primeiracnhsocial.prefeituradeitabuna.com.br/"
-  summary: Software Development and Operational implementation.
+  summary: "Contribui com o desenvolvimento e gestão do processo seletivo do programa Primeira CNH Social "
   tags: ["profissional"]
 
-- name: Zona Azul - Parking lot
+- name: Zona Azul
   logo: images/sections/projects/itabuna.png
-  role: Software Developer
+  role: Desenvolvedor de Software
   timeline: "Julho de 2019 - Agosto de 2019"
   url: "http://itabuna.ba.gov.br/"
-  summary: Software development  and Operational implementation, Android application development with thermal printer integration.
+  summary: "Contribui com o desenvolvimento de um aplicativo Android responsável por se comunicar com o back-end da aplicação."
   tags: ["profissional"]
 
 
 - name: Tradefix
   logo: images/sections/projects/tradefix.png
-  role: Software Developer
+  role: Desenvolvedor de Software
   timeline: "Julho de 2019 - Agosto de 2019"
   url: "https://tradefix.com.br/"
-  summary: Algotrading applications tools and bots. Implementatation of payment gateway for several applications.
+  summary: "Desenvolvimento de uma API de pagamento utilizando o FastAPI"
   tags: ["profissional"]
 
 - name: Asaas SDK
@@ -58,5 +58,5 @@ projects:
   role: Owner
   timeline: "Julho de 2019 - Agosto de 2019"
   repo: "https://github.com/marlonjsilva/asaas_sdk_python"
-  summary: SDK in python for access ASAAS payment gateway endpoints.
+  summary: "Criação de uma SDK para acesso ao serviços da Asaas."
   tags: ["hobby"]

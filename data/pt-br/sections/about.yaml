@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: Sobre
   id: about
   enable: true
   weight: 1
@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Developer
+designation: Desenvolvedor de Software
 # your company information
 company:
   name: UDS
@@ -18,7 +18,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Experienced Software Developer, with focous in results and best practices uses. Skilled on Cloud Computing migration/adoption, empasys on costs optimizations . Self-managed, analitical and proactive.'
+summary: 'Desenvolvedor de software focado em resultados com ampla experiência em desenvolvimento e testagem de software. Habilidoso no uso de abordagens orientadas a objetivos para o desenvolvimento de software em tempo real. Analítico e detalhista.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -33,12 +33,11 @@ socialLinks:
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
-
 softSkills:
-- name: Technician
+- name: Técnico
   percentage: 85
   color: blue
-- name: Team
+- name: Equipe
   percentage: 90
   color: yellow
 

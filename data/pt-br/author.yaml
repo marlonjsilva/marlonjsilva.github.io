@@ -2,7 +2,7 @@
 name: "Marlon Silva"
 nickname: "Marlon"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hey, I'm "
+greeting: "Olá, sou "
 image: "images/author/me.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -11,7 +11,7 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - Software Developer
-  - Enthusiast of SecDevOps
-  - Love technology
-  - Love being involved on interesting projects
+  - Desenvolvedor de Software
+  - Entusiasta de SecDevOps
+  - Amo tecnologia
+  - Adoro estar envolvido em novos projetos

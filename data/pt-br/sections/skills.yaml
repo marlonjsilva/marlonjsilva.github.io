@@ -12,62 +12,62 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Python
-  summary: "Software development in Python with Flask and RestAPI frameworks."
+  summary: "Desenvolvimento back-end com Flask, desenvolvimento de API's utilizando FASTAPI, e desenvolvimento de ferramentas focadas no mercado financeiro."
   url: "https://www.python.org/"
   logo: "images/sections/skills/python.svg"
 
 - name: NodeJS
-  summary: "Software development back-end with Expresss and Restify"
+  summary: "Desenvolvimento back-end utilizando Express, desenvolvimento de API's utlizando o Restify"
   url: "https://nodejs.org/"
   logo: "images/sections/skills/nodejs.svg"
 
 - name: Java
-  summary: "Software development with Spring framework."
+  summary: "Desenvolvimento back-end utilizando as tecnologias Spring."
   url: "https://www.java.com/"
   logo: "images/sections/skills/java.svg"
 
 - name: AWS
-  summary: "Cloud solutions development with AWS."
+  summary: "Desenvolvivmento de soluções em nuvem utlizando Amazon AWS."
   url: "https://aws.amazon.com/"
   logo: "images/sections/skills/aws.svg"
 
 - name: GCP
-  summary: "Cloud solutions development with Google Cloud Platform."
+  summary: "Desenvolvivmento de soluções em nuvem utlizando Google Cloud Platform."
   url: "https://cloud.google.com/"
   logo: "images/sections/skills/gcp.svg"
 
 - name: Terraform
-  summary: "Proficiency with provisioning cloud compute resources using Infraestructure as Code (IaC) methodology with Terraform."
+  summary: "Provisionamento de recursos em nuvem multi-cloud utilizando a estratégia Infraestructure as Code (IaC) com Terraform."
   url: "https://www.terraform.io/"
   logo: "images/sections/skills/terraform.svg"
 
 - name: Ansible
-  summary: "Linux server automation using Ansible."
+  summary: "Automação de configurações de servidores linux utlizando Ansible."
   url: "https://www.ansible.com/"
   logo: "images/sections/skills/ansible.svg"
 
 - name: Git
-  summary: "Code versioning proficiency with git technology."
+  summary: "Proficiencia no uso de ferramentas de versionamento de código que utilizam a tecnologia git."
   url: "https://git-scm.com/"
   logo: "images/sections/skills/git.svg"
 
 - name: Jenkins
-  summary: "DevOps culture for CI/CD pipelines."
+  summary: "Cultura SecDevOps fazendo uso de tecnologias de CI/CD."
   url: "https://www.jenkins.io/"
   logo: "images/sections/skills/jenkins.svg"
 
 - name: Redis
-  summary: "Software development with message-queue and publish/subscribe pattern using Python and Nodejs"
+  summary: "Desenvolvimento de aplicações que fazem uso dos padrões de message-queue e public/subscribe utlizando python e nodejs."
   url: "https://redis.io/"
   logo: "images/sections/skills/redis.svg"
 
 - name: Debian
-  summary: "Proficiency with server administration with emphasys on Debian."
+  summary: "Proficiencia na admnistração de servidores linux com enfâse em Debia."
   url: "https://www.debian.org/"
   logo: "images/sections/skills/debian.svg"
 
 - name: Bash
-  summary: "Script development for automation and administration of Debian servers."
+  summary: "Criação de script de automação de tarefas e rotinas administrativas de servidores linux."
   url: "https://www.gnu.org/software/bash/"
   logo: "images/sections/skills/bash.svg"
 
