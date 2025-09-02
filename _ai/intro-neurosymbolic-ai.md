@@ -1,5 +1,5 @@
 ---
-title: AI
+title: Introduction to Neurosymbolic AI [WIP]
 author: Marlon Silva
 date: 2025-09-02
 category: Jekyll
