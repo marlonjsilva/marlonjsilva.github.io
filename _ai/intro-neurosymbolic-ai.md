@@ -24,4 +24,11 @@ Knowledge Representation & Reasoning is focused on **reasoning**. It uses symbol
 
 ## AlphaEvolve
 
-The DeepMind team at Google created [AlphaEvolve](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) a system that bridges both approaches. They used LLM models to propose solutions to a problem and employed a symbolic component to assess and ensure the correctness of the solution. The system was able to propose a better algorithm for 4x4 matrix multiplication than the [Strassen algorithm](https://en.wikipedia.org/wiki/Strassen_algorithm).
+The DeepMind team at Google created [AlphaEvolve](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/), a system that bridges both approaches. They used LLM models to propose solutions to a problem and employed a symbolic component to assess and ensure the correctness of the solution. With this approach, Google's DeepMind team was able to:
+- **Optimize the computing ecosystem:** AlphaEvolve improved by 0.7% the recovery process of Google's orchestrator tool worldwide, making it possible to complete more tasks with the same computational footprint.
+- **Enhance AI Training and Inference:** AlphaEvolve reduced the training time in Gemini's models by 1% by optimizing the architecture and lower-level implementation that humans rarely touch on a day-to-day basis.
+- **Improve Strassen's Algorithm:** AlphaEvolve proposed a better algorithm implementation to multiply 4x4 complex-valued matrices using 48 scalar multiplications, surpassing [Strassen's Algorithm](https://en.wikipedia.org/wiki/Strassen_algorithm).
+
+We are only scratching the surface of the total potential of leveraging NeuroSymbolic reasoning systems to solve complex problems that we didn't think would be possible to solve a few years ago.
+
+To thrive in this new era of Artificial Intelligence, it will be imperative for companies and governments to develop, change, and support systems to adopt this new approach of Neurosymbolic AI.
