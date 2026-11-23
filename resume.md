@@ -1,40 +1,38 @@
 ---
-title: Resume
+title: Marlon de Jesus Silva
 layout: page
+eyebrow: Software Engineer
+prose_class: prose--resume
 ---
-
-# Marlon de Jesus Silva
 
 **Email:** [contato@marlonjsilva.com.br](mailto:contato@marlonjsilva.com.br) <br>
 **Linkedin:** [@marlonjsilva](https://www.linkedin.com/in/marlonjsilva/) <br>
 **Github:** [@marlonjsilva](https://github.com/marlonjsilva) <br>
 
-## SOFTWARE ENGINEER
-
-## Profile  
+## Profile
 Experienced Software Engineer at [Nubank](https://international.nubank.com.br/about/), with specialized expertise in developing AI solutions to enhance infrastructural enablement for software engineering teams. I also bring experience in cloud solutions, having implemented best practices from the Cloud Adoption Framework and Well-Architected Framework, along with managing cost optimization and migrations in AWS environments.
 
 ## Experience
 
 ### Software Engineer (Remote)
-[Nubank](https://international.nubank.com.br/about/) <br> 
-*September 2023 - Present | São Paulo, SP*  
-Leading Brazilian fintech in digital banking innovation  
+[Nubank](https://international.nubank.com.br/about/) <br>
+*September 2023 - Present | São Paulo, SP* <br>
+Leading Brazilian fintech in digital banking innovation
 - Generative AI (GenAI) application development
 - LLM model benchmarking for code generation
 - Analysis and design of AI applications for software engineering
 
-### Mid-level Software Developer (Remote)  
+### Mid-level Software Developer (Remote)
 [UDS Tecnologia](https://udstechnology.com/) <br>
-*May 2022 - September 2023 | Maringá, PR*  
-Digital product structuring company  
+*May 2022 - September 2023 | Maringá, PR* <br>
+Digital product structuring company
 - Workload migration between clouds
 - Resource provisioning via Terraform with GitOps
 
-### Software Developer  
+### Software Developer
 [Tradefix](https://tradefix.com.br/) <br>
-*January 2019 - May 2022 | Itabuna, BA*  
-Financial market development  
+*January 2019 - May 2022 | Itabuna, BA* <br>
+Financial market development
 - Payment API with FastAPI
 - Internal APIs for trading tools
 - Copytrade platform development
@@ -42,25 +40,26 @@ Financial market development
 
 ### Itabuna Municipal Government
 [Itabuna](https://itabuna.ba.gov.br/) <br>
-*December 2016 - May 2022 | Itabuna, BA*  
-**Software Developer** (Jun 2018 - May 2022)  
+*December 2016 - May 2022 | Itabuna, BA* <br>
+**Software Developer** (Jun 2018 - May 2022)
 - Java/PHP web applications
 - Software documentation
-- User training  
+- User training
 
-**IT Technician** (Dec 2016 - Jun 2018)  
+**IT Technician** (Dec 2016 - Jun 2018)
 - ITIL workflow implementation
 - Resource management with GLPI
 - IT procurement bidding advisory
 
-## Education  
-### Technologist in Information Technology Management  
-Cruzeiro do Sul University, Itabuna  
-*January 2020 – December 2022*  
+## Education
 
-### Computer Technician - Software Developer  
-Indaiatuba Foundation for Education and Culture  
-*January 2014 – December 2016*  
+### Technologist in Information Technology Management
+Cruzeiro do Sul University, Itabuna <br>
+*January 2020 – December 2022*
+
+### Computer Technician - Software Developer
+Indaiatuba Foundation for Education and Culture <br>
+*January 2014 – December 2016*
 
 ## Skills
 

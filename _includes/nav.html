@@ -1,0 +1,27 @@
+<header class="site-header">
+  <div class="wrap nav">
+    <nav class="nav__links" aria-label="Primary">
+      {%- for item in site.data.site.nav -%}
+        <a class="nav__link" href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {%- endfor -%}
+    </nav>
+
+    <a class="nav__mark" href="{{ '/' | relative_url }}" aria-label="Marlon Silva — home">
+      {%- include mark.html -%}
+    </a>
+
+    <div class="nav__right">
+      <a class="nav__link nav__link--rss" href="{{ '/feed.xml' | relative_url }}">RSS <span aria-hidden="true">↗</span></a>
+
+      <details class="nav__mobile">
+        <summary class="nav__toggle">Menu</summary>
+        <nav class="nav__panel field" aria-label="Mobile">
+          {%- for item in site.data.site.nav -%}
+            <a class="nav__panel-link" href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+          {%- endfor -%}
+          <a class="nav__panel-link" href="{{ '/feed.xml' | relative_url }}">RSS ↗</a>
+        </nav>
+      </details>
+    </div>
+  </div>
+</header>

@@ -1,15 +1,21 @@
 ---
 layout: default
 ---
+<div class="wrap page-body">
+  <div class="page-nav">
+    {%- include back_link.html -%}
+  </div>
 
-{%-include back_link.html-%}
+  <header class="page-head">
+    <p class="eyebrow">{{ page.tags | first | default: 'Note' }}</p>
+    <h1 class="page-head__title">{{ page.title }}</h1>
+    <div class="page-head__meta">
+      <time class="meta" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.theme_config.date_format }}</time>
+      <span class="meta">{{ content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+    </div>
+  </header>
 
-<article>
-  <p class="post-meta">
-    <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
-  </p>
-  
-  <h1>{{ page.title }}</h1>
-
-  {{ content }}
-</article>
+  <article class="prose">
+    {{ content }}
+  </article>
+</div>

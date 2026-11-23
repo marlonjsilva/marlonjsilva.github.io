@@ -1,13 +1,86 @@
 ---
 layout: default
 ---
-<header>
-  <h1>{{ site.title }}</h1>
-  {%-if site.theme_config.show_description-%}
-    <p>{{ site.description }}</p>
-  {%-endif-%}
-</header>
+<section class="hero">
+  <div class="wrap">
+    <div class="hero__meta">
+      <p class="eyebrow">Software engineer · Nubank</p>
+      <p class="eyebrow eyebrow--muted">São Paulo, BR</p>
+    </div>
 
-{%-include menu_item.html collection=site.data.menu.entries-%}
+    <div class="hero__wordmark">
+      <h1 class="hero__title" data-fit>Marlon Silva</h1>
+    </div>
 
-{{ content }}
+    <p class="hero__lede">
+      I build AI systems and the infrastructure that keeps them shippable.
+      This is where I write about the engineering behind it — models, cloud,
+      and the trade-offs in between.
+    </p>
+
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="#writing">Read the writing <span class="btn__arrow" aria-hidden="true">→</span></a>
+      <a class="btn btn--ghost" href="{{ '/about.html' | relative_url }}">About me</a>
+    </div>
+
+    <div class="hero__terminal" data-reveal>
+      <div class="terminal">
+        <div class="terminal__bar" aria-hidden="true">
+          <span class="terminal__dot"></span>
+          <span class="terminal__dot"></span>
+          <span class="terminal__dot"></span>
+          <span class="terminal__title">hermes — zsh</span>
+        </div>
+        <pre class="terminal__body"><span class="t-prompt">$</span> whoami
+<span class="t-out">marlon silva · software engineer</span>
+<span class="t-prompt">$</span> cat now.txt
+<span class="t-out">building ai systems at nubank</span>
+<span class="t-prompt">$</span> ls writing/
+<span class="t-out">intro-neurosymbolic-ai.md</span>
+<span class="t-prompt">$</span> <span class="terminal__caret" aria-hidden="true"></span></pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--rule" id="focus">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-head__top">
+        <p class="eyebrow">01 — Focus</p>
+        <p class="meta">Three fields</p>
+      </div>
+      <div class="section-head__rule"></div>
+      <h2 class="section-head__title">What I do</h2>
+    </div>
+
+    <div class="focus">
+      {%- for item in site.data.site.focus -%}
+        <article class="focus__item" data-reveal style="--i: {{ forloop.index0 }}">
+          <p class="focus__index"><span>{{ item.index }}</span><span>{{ item.tag }}</span></p>
+          <h3 class="focus__title">{{ item.title }}</h3>
+          <p class="focus__body">{{ item.body }}</p>
+        </article>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<section class="section section--rule" id="writing">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-head__top">
+        <p class="eyebrow">02 — Journal</p>
+        <p class="meta">{{ site.posts.size }} post{% if site.posts.size != 1 %}s{% endif %}</p>
+      </div>
+      <div class="section-head__rule"></div>
+      <h2 class="section-head__title">Writing</h2>
+    </div>
+
+    {%- include post_list.html limit=6 show_more=true show_more_url='/archive.html' show_more_text='All posts' -%}
+  </div>
+</section>
+
+<section class="seal-section">
+  {%- include seal.html -%}
+</section>

@@ -1,0 +1,272 @@
+// =============================================================================
+// Hermes Design System — prose
+// Long-form reading: posts, about, resume.
+// =============================================================================
+
+.prose {
+  max-width: 66ch;
+  font-size: var(--text-body);
+  line-height: 1.7;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  p {
+    margin: 0 0 1.25em;
+  }
+
+  h2 {
+    margin: 1.8em 0 0.55em;
+    font-size: var(--text-h1);
+    line-height: 1.02;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    margin: 1.6em 0 0.45em;
+    font-size: var(--text-h2);
+    line-height: 1.05;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    margin: 1.5em 0 0.4em;
+    font-family: var(--font-condensed);
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  ul,
+  ol {
+    margin: 0 0 1.25em;
+    padding-left: 1.2em;
+  }
+
+  li {
+    margin: 0.35em 0;
+  }
+
+  li::marker {
+    color: var(--accent);
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: color var(--dur-fast) var(--ease-snap);
+
+    &:hover {
+      color: var(--accent-hover);
+      text-decoration-thickness: 2px;
+    }
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  code {
+    padding: 1px 5px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-control);
+    background: var(--surface-muted);
+    font-family: var(--font-mono);
+    font-size: 0.88em;
+    color: var(--ink);
+  }
+
+  pre {
+    margin: 0 0 1.5em;
+    padding: 20px;
+    overflow-x: auto;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius-card);
+    background: var(--ink);
+    color: var(--ink-inverse);
+    font-size: 12.5px;
+    line-height: 1.7;
+
+    code {
+      padding: 0;
+      border: 0;
+      background: none;
+      color: inherit;
+      font-size: inherit;
+    }
+  }
+
+  blockquote {
+    margin: 0 0 1.5em;
+    padding: 2px 0 2px var(--space-5);
+    border-left: 2px solid var(--accent);
+    font-style: normal;
+    color: var(--ink);
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  hr {
+    margin: 2.5em 0;
+    border: 0;
+    border-top: 1px solid var(--line-strong);
+  }
+
+  table {
+    width: 100%;
+    margin: 0 0 1.5em;
+    border-collapse: collapse;
+    font-size: var(--text-sm);
+  }
+
+  th,
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    border-bottom-color: var(--line-strong);
+    font-family: var(--font-condensed);
+    font-size: var(--text-micro);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  img {
+    width: 100%;
+    border: 1px solid var(--line);
+  }
+
+  figure {
+    margin: 2em 0;
+  }
+
+  figcaption {
+    margin-top: var(--space-3);
+    font-family: var(--font-mono);
+    font-size: var(--text-micro);
+    letter-spacing: 0.04em;
+    color: var(--ink-muted);
+  }
+
+  .footnotes {
+    margin-top: 3em;
+    padding-top: var(--space-5);
+    border-top: 1px solid var(--line);
+    font-size: var(--text-sm);
+  }
+
+  .katex-display {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.5em 0;
+  }
+}
+
+// --- resume variant ----------------------------------------------------------
+
+.prose--resume {
+  max-width: 74ch;
+
+  h2 {
+    margin-top: 2.4em;
+    padding-top: var(--space-4);
+    border-top: 1px solid var(--line-strong);
+    font-size: var(--text-h2);
+  }
+
+  h3 {
+    margin-top: 1.6em;
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+  em {
+    font-style: normal;
+    font-family: var(--font-mono);
+    font-size: 0.8em;
+    letter-spacing: 0.02em;
+    color: var(--ink-muted);
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+}
+
+// --- print -------------------------------------------------------------------
+
+@media print {
+  .site-header,
+  .site-footer,
+  .page-nav,
+  .seal-section,
+  .skip-link {
+    display: none !important;
+  }
+
+  html,
+  body {
+    background: #FFFFFF;
+    color: #000000;
+  }
+
+  h1,
+  h2,
+  h3 {
+    color: #000000;
+  }
+
+  .wrap {
+    max-width: none;
+    padding: 0;
+  }
+
+  .page-head {
+    border-color: #000000;
+  }
+
+  html.js [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .prose {
+    max-width: none;
+
+    a {
+      color: #000000;
+      text-decoration: none;
+
+      &[href^="http"]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+      }
+    }
+
+    pre,
+    code {
+      background: #FFFFFF;
+      color: #000000;
+      border-color: #000000;
+    }
+
+    h2,
+    h3 {
+      break-after: avoid;
+    }
+  }
+}

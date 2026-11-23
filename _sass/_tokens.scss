@@ -1,0 +1,111 @@
+// =============================================================================
+// Hermes Design System — tokens
+// Source of truth for colour, type, space, shape, and motion.
+// Every value here maps 1:1 to hermes-design-system.md §14.
+// =============================================================================
+
+:root {
+  // --- colour: core (Verdant) ----------------------------------------------
+  --canvas: #F6F6DB;
+  --surface: #FFFDF0;
+  --surface-muted: #ECECCF;
+  --field: #2C3A25;
+  --ink: #2C3A25;
+  --ink-inverse: #F6F6DB;
+  --title: #A7D489;
+  // AA-safe alternatives for --title: #5F8F45 (large text), #527A3A (normal text).
+  --accent: #4F7137;
+  --accent-hover: #5E8443;
+  --accent-press: #3B5629;
+
+  // --- colour: derived ------------------------------------------------------
+  --ink-muted: rgba(44, 58, 37, 0.70);
+  --ink-faint: rgba(44, 58, 37, 0.38);
+  --line: rgba(44, 58, 37, 0.16);
+  --line-strong: #2C3A25;
+  --line-inverse: rgba(246, 246, 219, 0.24);
+  --focus: #4F7137;
+  --state-danger: #9B3A22;
+
+  // --- type: families -------------------------------------------------------
+  --font-display: "Oswald", "Arial Narrow", "Helvetica Neue", sans-serif;
+  --font-condensed: "Oswald", "Arial Narrow", sans-serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  // --- type: scale ----------------------------------------------------------
+  --text-display-xl: clamp(2.5rem, 13.2vw, 12.5rem);
+  --text-display-lg: clamp(2.5rem, 9vw, 7.5rem);
+  --text-display-md: clamp(2.25rem, 5.6vw, 4.75rem);
+  --text-title: clamp(2rem, 5vw, 4.25rem);
+  --text-h1: clamp(1.6rem, 3vw, 2.5rem);
+  --text-h2: clamp(1.35rem, 2.2vw, 1.875rem);
+  --text-h3: 1.25rem;
+  --text-body: 0.9375rem;
+  --text-sm: 0.8125rem;
+  --text-label: 0.8125rem;
+  --text-nav: 0.75rem;
+  --text-micro: 0.6875rem;
+
+  // --- type: rhythm ---------------------------------------------------------
+  --leading-display: 0.92;
+  --leading-heading: 1.05;
+  --leading-body: 1.5;
+  --tracking-label: 0.06em;
+  --tracking-nav: 0.1em;
+
+  // --- space ----------------------------------------------------------------
+  --space-1: 2px;
+  --space-2: 4px;
+  --space-3: 8px;
+  --space-4: 12px;
+  --space-5: 16px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 48px;
+  --space-9: 64px;
+  --space-10: 96px;
+  --space-11: 128px;
+  --space-12: 160px;
+  --space-13: 200px;
+  --space-14: 240px;
+
+  // --- layout ---------------------------------------------------------------
+  --wrap-max: 1320px;
+  --page-margin: clamp(20px, 4vw, 56px);
+  --header-h: 72px;
+
+  // --- shape ----------------------------------------------------------------
+  --radius-control: 2px;
+  --radius-card: 4px;
+  --radius-terminal: 12px;
+
+  // --- motion ---------------------------------------------------------------
+  --dur-instant: 80ms;
+  --dur-fast: 160ms;
+  --dur-base: 240ms;
+  --dur-slow: 480ms;
+  --dur-reveal: 700ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-snap: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+// Field mode: a blue chapter. Descendants inherit inverted tokens automatically.
+.field,
+[data-theme="field"] {
+  --ink: #F6F6DB;
+  --ink-muted: rgba(246, 246, 219, 0.74);
+  --ink-faint: rgba(246, 246, 219, 0.42);
+  --line: rgba(246, 246, 219, 0.24);
+  --line-strong: #F6F6DB;
+  --title: #F6F6DB;
+  --accent: #A7D489;
+  --accent-hover: #B9E19E;
+  --surface: #3A4A30;
+  --surface-muted: rgba(246, 246, 219, 0.08);
+  --focus: #A7D489;
+
+  background: var(--field);
+  color: var(--ink);
+}
