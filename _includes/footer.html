@@ -1,0 +1,41 @@
+<footer class="site-footer field">
+  <div class="wrap footer__inner">
+    <p class="footer__mark" aria-hidden="true">Marlon Silva</p>
+
+    <div class="footer__cols">
+      <div>
+        <p class="footer__col-title">Site</p>
+        <ul class="footer__list">
+          {%- for item in site.data.site.nav -%}
+            <li><a class="footer__link" href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {%- endfor -%}
+          <li><a class="footer__link" href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer__col-title">Elsewhere</p>
+        <ul class="footer__list">
+          {%- for item in site.data.site.socials -%}
+            <li><a class="footer__link" href="{{ item.url }}">{{ item.title }} <span aria-hidden="true">↗</span></a></li>
+          {%- endfor -%}
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer__col-title">Colophon</p>
+        <p class="footer__note">Set in Oswald and Inter, self-hosted. Built with Jekyll. No trackers, no cookies.</p>
+      </div>
+
+      <div>
+        <p class="footer__col-title">Status</p>
+        <p class="footer__note">Writing about AI systems and the infrastructure behind them. Based in São Paulo, Brazil.</p>
+      </div>
+    </div>
+
+    <div class="footer__legal">
+      <span>© {{ site.time | date: '%Y' }} Marlon Silva</span>
+      <span>São Paulo · BR</span>
+    </div>
+  </div>
+</footer>

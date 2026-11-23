@@ -4,6 +4,7 @@
 .bundle
 .jekyll-cache
 .sass-cache
+.jektex-cache
 _site
 vendor
 Gemfile.lock

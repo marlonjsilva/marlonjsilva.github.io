@@ -1,29 +1,29 @@
-{%-if include.category-%}
-  {%-assign posts = site.categories[include.category]-%}  
-{%-else-%}
-  {%-assign posts = site.posts-%}
-{%-endif-%}
-
-{%-if include.limit and posts.size > include.limit-%}
-  {%-assign limit_exceeded = true-%}
-{%-else-%}
-  {%-assign limit_exceeded = false-%}
-{%-endif-%}
+{%- assign posts = site.posts -%}
+{%- if include.category -%}
+  {%- assign posts = site.categories[include.category] -%}
+{%- endif -%}
+{%- assign limit = include.limit | default: posts.size -%}
 
 {%- if posts.size > 0 -%}
-  <ul>
-    {%- for post in posts limit: include.limit -%}
-        <li>
-          <span>{{- post.date | date: site.theme_config.date_format -}}</span>
-          {% if site.theme_config.lowercase_titles == true %}
-          <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
-          {% else %}
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          {% endif %}
-        </li>
+  <div class="entries">
+    {%- for post in posts limit: limit -%}
+      <a class="entry" href="{{ post.url | relative_url }}" data-reveal style="--i: {{ forloop.index0 }}">
+        <span class="entry__date">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: site.theme_config.date_format }}</time>
+        </span>
+        <span class="entry__title">{{ post.title }}</span>
+        <span class="entry__arrow" aria-hidden="true">→</span>
+      </a>
     {%- endfor -%}
-    {%- if include.show_more and limit_exceeded -%}
-      <li><a href="{{ include.show_more_url }}">{{ include.show_more_text | default: "Show more..." }}</a></li>
-    {%- endif -%}
-  </ul>
+  </div>
+
+  {%- if include.show_more and limit < posts.size -%}
+    <p class="entries__more">
+      <a class="link-arrow" href="{{ include.show_more_url | relative_url }}">
+        {{ include.show_more_text | default: "All posts" }} <span aria-hidden="true">→</span>
+      </a>
+    </p>
+  {%- endif -%}
+{%- else -%}
+  <p class="muted">Nothing published yet.</p>
 {%- endif -%}

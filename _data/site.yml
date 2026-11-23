@@ -1,0 +1,38 @@
+nav:
+  - title: Writing
+    url: "/#writing"
+  - title: About
+    url: /about.html
+  - title: Resume
+    url: /resume.html
+  - title: Archive
+    url: /archive.html
+
+socials:
+  - title: GitHub
+    url: https://github.com/marlonjsilva
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/marlonjsilva/
+  - title: Email
+    url: mailto:contato@marlonjsilva.com.br
+
+focus:
+  - index: "01"
+    tag: AI
+    title: Applied AI
+    body: >-
+      Generative AI applications and LLM benchmarking for the software
+      engineering teams I work with — from prototype to something a team can
+      actually depend on.
+  - index: "02"
+    tag: Cloud
+    title: Cloud & platform
+    body: >-
+      AWS and GCP infrastructure with Terraform and GitOps, designed for cost,
+      reliability, and as little operational drag as possible.
+  - index: "03"
+    tag: Writing
+    title: Notes & research
+    body: >-
+      Notes on neurosymbolic AI, agents, and the craft of building software
+      that survives contact with production.

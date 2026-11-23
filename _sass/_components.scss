@@ -1,0 +1,381 @@
+// =============================================================================
+// Hermes Design System — components
+// Buttons, terminal, focus cards, entries, seal, reveals.
+// =============================================================================
+
+// --- buttons -----------------------------------------------------------------
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  height: 44px;
+  padding: 0 22px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-control);
+  font-family: var(--font-condensed);
+  font-size: var(--text-label);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color var(--dur-fast) var(--ease-snap),
+    color var(--dur-fast) var(--ease-snap),
+    border-color var(--dur-fast) var(--ease-snap);
+
+  &__arrow {
+    transition: transform var(--dur-fast) var(--ease-snap);
+  }
+
+  &:hover &__arrow {
+    transform: translateX(3px);
+  }
+}
+
+.btn--primary {
+  background: var(--accent);
+  color: #F6F6DB;
+
+  &:hover {
+    background: var(--accent-hover);
+  }
+
+  &:active {
+    background: var(--accent-press);
+  }
+}
+
+.field .btn--primary {
+  color: var(--field);
+}
+
+.btn--ghost {
+  background: transparent;
+  border-color: var(--line-strong);
+  color: var(--ink);
+
+  &:hover {
+    background: var(--ink);
+    color: var(--canvas);
+  }
+}
+
+// --- link with arrow ---------------------------------------------------------
+
+.link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding-bottom: 3px;
+  border-bottom: 1px solid currentColor;
+  font-family: var(--font-condensed);
+  font-size: var(--text-label);
+  font-weight: 500;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink);
+
+  span {
+    transition: transform var(--dur-fast) var(--ease-snap);
+  }
+
+  &:hover span {
+    transform: translateX(3px);
+  }
+}
+
+// --- back link ---------------------------------------------------------------
+
+.backlink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-family: var(--font-condensed);
+  font-size: var(--text-label);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink-muted);
+
+  span {
+    transition: transform var(--dur-fast) var(--ease-snap);
+  }
+
+  &:hover {
+    color: var(--ink);
+
+    span {
+      transform: translateX(-3px);
+    }
+  }
+}
+
+// --- terminal ----------------------------------------------------------------
+
+.terminal {
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-terminal);
+  background: var(--ink);
+  color: var(--ink-inverse);
+  font-family: var(--font-mono);
+}
+
+.terminal__bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line-inverse);
+}
+
+.terminal__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.45;
+}
+
+.terminal__title {
+  flex: 1;
+  text-align: center;
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.terminal__body {
+  margin: 0;
+  padding: 18px 20px 22px;
+  overflow-x: auto;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.85;
+  white-space: pre-wrap;
+}
+
+.t-prompt {
+  font-weight: 500;
+}
+
+.t-out {
+  opacity: 0.85;
+}
+
+.t-dim {
+  opacity: 0.6;
+}
+
+.terminal__caret {
+  display: inline-block;
+  width: 0.55em;
+  height: 1.05em;
+  margin-left: 0.15em;
+  background: currentColor;
+  vertical-align: -0.18em;
+  animation: caret-blink 1.1s steps(1) infinite;
+}
+
+@keyframes caret-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .terminal__caret {
+    animation: none;
+  }
+}
+
+// --- focus cards -------------------------------------------------------------
+
+.focus {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-7);
+}
+
+.focus__item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--line-strong);
+}
+
+.focus__index {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-4);
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.focus__title {
+  color: var(--title);
+  font-size: var(--text-h2);
+  line-height: 1.02;
+  text-transform: uppercase;
+}
+
+.focus__body {
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  color: var(--ink-muted);
+}
+
+// --- entries (post rows) -----------------------------------------------------
+
+.entries {
+  border-top: 1px solid var(--line);
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 128px minmax(0, 1fr) auto;
+  gap: var(--space-6);
+  align-items: baseline;
+  padding: var(--space-6) var(--space-4);
+  border-bottom: 1px solid var(--line);
+  color: inherit;
+  text-decoration: none;
+  transition:
+    background-color var(--dur-instant) var(--ease-snap),
+    color var(--dur-instant) var(--ease-snap);
+
+  &:hover {
+    background: var(--ink);
+    color: var(--ink-inverse);
+
+    .entry__date {
+      color: var(--ink-inverse);
+      opacity: 0.7;
+    }
+  }
+
+  &:focus-visible {
+    outline-offset: -2px;
+  }
+}
+
+.entry__date {
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.entry__title {
+  color: var(--title);
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  font-weight: 600;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.entry__arrow {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.entries__more {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--space-6);
+}
+
+// --- seal --------------------------------------------------------------------
+
+.seal-section {
+  display: grid;
+  place-items: center;
+  padding: clamp(72px, 10vw, 140px) 0;
+  border-top: 1px solid var(--line);
+}
+
+.seal {
+  width: min(520px, 82vw);
+  height: auto;
+  color: var(--ink);
+}
+
+.seal__ring {
+  transform-origin: 200px 200px;
+  animation: seal-spin 120s linear infinite;
+  animation-play-state: paused;
+}
+
+.seal:hover .seal__ring {
+  animation-play-state: running;
+}
+
+@keyframes seal-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .seal__ring {
+    animation: none;
+  }
+}
+
+// --- scroll reveals ----------------------------------------------------------
+
+html.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity var(--dur-reveal) var(--ease-out),
+    transform var(--dur-reveal) var(--ease-out);
+  transition-delay: calc(var(--i, 0) * 60ms);
+}
+
+html.js [data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.js [data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+// --- responsive --------------------------------------------------------------
+
+@media (max-width: 900px) {
+  .focus {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .entry {
+    grid-template-columns: 1fr auto;
+    gap: var(--space-2) var(--space-4);
+  }
+
+  .entry__date {
+    grid-column: 1 / -1;
+  }
+}
