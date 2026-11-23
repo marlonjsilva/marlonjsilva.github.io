@@ -1,4 +1,17 @@
+Fonts bundled in this directory
+===============================
+
+Oswald
+Copyright 2016 The Oswald Project Authors (https://github.com/googlefonts/OswaldFont)
+
+Inter
 Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+
+JetBrains Mono
+Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)
+
+All three families are licensed under the SIL Open Font License, Version 1.1,
+reproduced below.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

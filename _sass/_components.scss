@@ -1,6 +1,6 @@
 // =============================================================================
 // Hermes Design System — components
-// Buttons, terminal, focus cards, entries, badges, seal, reveals.
+// Buttons, terminal, focus cards, entries, seal, reveals.
 // =============================================================================
 
 // --- buttons -----------------------------------------------------------------
@@ -61,15 +61,6 @@
   &:hover {
     background: var(--ink);
     color: var(--canvas);
-  }
-}
-
-.btn--inverse {
-  background: var(--ink-inverse);
-  color: var(--field);
-
-  &:hover {
-    background: #FFFDF0;
   }
 }
 
@@ -308,23 +299,6 @@
   display: flex;
   justify-content: flex-end;
   margin-top: var(--space-6);
-}
-
-// --- badge -------------------------------------------------------------------
-
-.badge {
-  display: inline-flex;
-  align-items: center;
-  height: 20px;
-  padding: 0 var(--space-3);
-  border: 1px solid currentColor;
-  border-radius: var(--radius-control);
-  font-family: var(--font-mono);
-  font-size: 10px;
-  line-height: 1;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--ink-muted);
 }
 
 // --- seal --------------------------------------------------------------------

@@ -8,7 +8,7 @@ Jekyll site for [marlonjsilva.com.br](https://marlonjsilva.com.br), built on the
 - `_layouts/` — page shells (home, post, page, archive)
 - `_includes/` — nav, footer, seal, post list, head
 - `_data/site.yml` — navigation, social links, and the home focus blocks
-- `assets/fonts/` — self-hosted Oswald, Inter, JetBrains Mono (SIL OFL, see `LICENSE-*.txt`)
+- `assets/fonts/` — self-hosted Oswald, Inter, JetBrains Mono (SIL OFL, see `LICENSE-OFL.txt`)
 - `assets/js/hermes.js` — wordmark fitting, scroll reveals, mobile menu (no dependencies)
 
 ## Local development
